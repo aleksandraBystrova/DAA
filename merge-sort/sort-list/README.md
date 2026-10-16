@@ -1,4 +1,4 @@
-LeetCode 148 — Sort List
+LeetCode 148 Sort List
 
 1\. Problem
 
