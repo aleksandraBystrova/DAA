@@ -1,4 +1,4 @@
-LeetCode 912 — Sort an Array
+LeetCode 912 Sort an Array
 
 1\. Problem
 
