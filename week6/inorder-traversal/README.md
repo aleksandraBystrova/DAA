@@ -1,0 +1,25 @@
+# INORDER TRAVERSAL
+
+## 1. PROPBLEM
+I am given the tree root array, that must be traversed in the inorder way.
+
+## 2. APPROACH
+Inorder traversal rule - left -> root -> right
+
+At first i need to create a result list, to where i will put node values.
+result = []
+
+Then as rule said, i must go to the very left node. To do that i stand at the root of the tree.
+For example, i have this list to traverse [1,2,3]
+Whitch looks like
+-[1]-
+  \
+  [2]
+  /
+[3]
+
+So at fisrt i have 1. There is no left node, so i write 1 into result list [1]
+Then i go inside the right child. It has left node, so firsty i put in the list 3, then go back to the root, put 2
+and my list looks like this: [1,2,3].
+The recurrtion is been calling every time i stand at the root. The function return when it doesnt find any node to traverse
+
